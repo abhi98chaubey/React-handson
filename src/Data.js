@@ -30,6 +30,42 @@ const data = [
         "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
         "price": 179.99
       },
+      {
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },{
+        "id": 5,
+        "title": "Adventure Expedition",
+        "description": "Embark on an adrenaline-pumping adventure. From zip-lining to rock climbing, experience the thrill of our Adventure Expedition.",
+        "price": 179.99
+      },
     
   ];
 
