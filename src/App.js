@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+
+import Data from './Data';
+import Tours from './Tours';
+import CreateCard from './CreateCard';
 
 function App() {
+  const [tours, setTours] = useState(Data);
+
+  function removeCard(id) {
+    setTours(tours.filter(tour => tour.id !== id));
+  }
+
+  function storeAllData() {
+    setTours(Data);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {tours.length === 0 ? (
+        <button onClick={() => storeAllData()}>refresh</button>
+      ) : (
+        <Tours data={tours} removeCard={removeCard} />
+      )}
+
+      <CreateCard/>
     </div>
   );
 }
